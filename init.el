@@ -93,6 +93,7 @@
 (when (memq window-system '(mac ns x))
   (exec-path-from-shell-initialize))
 
+
 ;; Security
 (let ((trustfile
        (replace-regexp-in-string
@@ -107,17 +108,18 @@
   (setq gnutls-verify-error t)
   (setq gnutls-trustfiles (list trustfile)))
 
+
 ;; Install packages if needed
 (when (not package-archive-contents)
   (package-refresh-contents))
 (package-install-selected-packages)
+
 
 ;; Emacs config
 (show-paren-mode)
 (column-number-mode)
 (add-to-list 'auto-mode-alist '("\\.log\\'" . auto-revert-mode))
 
-;; Configure packages
 
 ;; Ivy
 (ivy-mode 1)
@@ -158,11 +160,14 @@
 (global-set-key (kbd "C-x g") 'magit-status)
 (global-set-key (kbd "C-x M-g") 'magit-dispatch-popup)
 
+
 ;; Elpy
 (elpy-enable)
 
+
 ;; Yasnippets
 (yas-global-mode t)
+
 
 ;; Latex editing
 (setq TeX-auto-save t)
@@ -176,6 +181,7 @@
 (add-hook 'LaTeX-mode-hook 'turn-on-reftex)
 (setq reftex-plug-into-AUCTeX t)
 
+
 ;; Which-key
 (which-key-mode)
 
@@ -187,6 +193,6 @@
  ;; If there is more than one, they won't work right.
  '(default ((t (:height 110 :family "SF Mono")))))
 
+
 (server-start)
 (put 'downcase-region 'disabled nil)
-
