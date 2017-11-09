@@ -179,9 +179,6 @@
 ;; Which-key
 (which-key-mode)
 
-;; Powerline
-(powerline-default-theme)
-
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
