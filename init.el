@@ -27,6 +27,10 @@
   (package-refresh-contents))
 (package-install-selected-packages)
 
+;; Load custom
+(setq custom-file "~/.emacs.d/custom.el")
+(load custom-file)
+
 ;; Emacs config
 (show-paren-mode)
 (column-number-mode)
