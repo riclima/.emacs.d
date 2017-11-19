@@ -49,9 +49,8 @@
      ("melpa" . "https://melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (string-inflection base16-theme ace-window yasnippet-snippets which-key ivy-hydra auctex nix-mode elpy yasnippet pandoc-mode markdown-mode magit swiper counsel monokai-theme ivy exec-path-from-shell)))
- '(python-shell-interpreter "ipython")
- '(python-shell-interpreter-args "--simple-prompt -i")
+    (projectile string-inflection base16-theme ace-window yasnippet-snippets which-key ivy-hydra auctex nix-mode elpy yasnippet pandoc-mode markdown-mode magit swiper counsel monokai-theme ivy exec-path-from-shell)))
+ '(python-shell-interpreter-args "-i")
  '(show-paren-mode t)
  '(tls-checktrust t)
  '(tool-bar-mode nil))
