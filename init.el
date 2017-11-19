@@ -1,12 +1,10 @@
-;; Added by Package.el.  This must come before configurations of
-;; installed packages.  Don't delete this line.  If you don't want it,
-;; just comment it out by adding a semicolon to the start of the line.
-;; You may delete these explanatory comments.
 (package-initialize)
 
-;; Setup the environment
+
+;; Environment
 (when (memq window-system '(mac ns x))
   (exec-path-from-shell-initialize))
+
 
 ;; Security
 (let ((trustfile
@@ -22,21 +20,24 @@
   (setq gnutls-verify-error t)
   (setq gnutls-trustfiles (list trustfile)))
 
-;; Install packages if needed
+
+;; Package Sync
 (when (not package-archive-contents)
   (package-refresh-contents))
 (package-install-selected-packages)
 
-;; Load custom
+
+;; Custom
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
 
-;; Emacs config
+
+;; General
 (show-paren-mode)
 (column-number-mode)
 (add-to-list 'auto-mode-alist '("\\.log\\'" . auto-revert-mode))
+(put 'downcase-region 'disabled nil)
 
-;; Configure packages
 
 ;; Ivy
 (ivy-mode 1)
@@ -67,7 +68,7 @@
 (global-set-key "\C-cb" 'org-iswitchb)
 
 
-;; ace-window
+;; Ace Window
 (global-set-key (kbd "M-p") 'ace-window)
 (setq aw-keys '(?a ?s ?d ?f ?g ?h ?j ?k ?l))
 
@@ -77,13 +78,17 @@
 (global-set-key (kbd "C-x g") 'magit-status)
 (global-set-key (kbd "C-x M-g") 'magit-dispatch-popup)
 
+
 ;; Elpy
 (elpy-enable)
+(elpy-use-ipython)
+
 
 ;; Yasnippets
-(yas-global-mode t)
+(yas-global-mode)
 
-;; Latex editing
+
+;; LaTeX
 (setq TeX-auto-save t)
 (setq TeX-parse-self t)
 (setq-default TeX-master nil)
@@ -95,8 +100,10 @@
 (add-hook 'LaTeX-mode-hook 'turn-on-reftex)
 (setq reftex-plug-into-AUCTeX t)
 
-;; Which-key
+
+;; Which Key
 (which-key-mode)
 
+
+;; Server
 (server-start)
-(put 'downcase-region 'disabled nil)
