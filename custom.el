@@ -25,7 +25,8 @@
     ("--graph" "--color" "--decorate" "--show-signature" "-n256")))
  '(magit-repository-directories
    (quote
-    (("~/.emacs.d" . 0)
+    (("~/.password-store" . 0)
+     ("~/.emacs.d" . 0)
      ("~/Org" . 0)
      ("~/SourceCode" . 1))))
  '(ns-command-modifier (quote control))
