@@ -18,6 +18,7 @@
     (elpy-module-company elpy-module-eldoc elpy-module-flymake elpy-module-pyvenv elpy-module-yasnippet elpy-module-django elpy-module-sane-defaults)))
  '(global-highlight-changes-mode nil)
  '(inhibit-startup-screen t)
+ '(ivy-mode t)
  '(line-spacing nil)
  '(magit-commit-arguments (quote ("--gpg-sign=5D7E1E4404878F25")))
  '(magit-log-arguments

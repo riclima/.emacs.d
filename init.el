@@ -40,7 +40,6 @@
 
 
 ;; Ivy
-(ivy-mode 1)
 (setq ivy-re-builders-alist
       '((t . ivy--regex-plus)))
 (setq ivy-use-virtual-buffers t)
