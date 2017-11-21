@@ -36,12 +36,15 @@
  '(org-capture-templates
    (quote
     (("t" "Task" entry
-      (file+headline "~/Org/inbox.org" "* Tasks")
-      "* TODO %?\\n")
-     ("T" "Task With Link" entry
-      (file+headline "~/Org/inbox.org" "* Tasks")
-      "* TODO %?\\n"))))
+      (file+headline "~/Org/inbox.org" "Captures")
+      "* TODO %?")
+     ("T" "Task with metadata" entry
+      (file+headline "~/Org/inbox.org" "Captures")
+      "* TODO %?
+  %i
+  %a"))))
  '(org-default-notes-file "~/Org/inbox.org")
+ '(org-hide-emphasis-markers t)
  '(org-lowest-priority 70)
  '(org-refile-targets (quote ((org-agenda-files :maxlevel . 3))))
  '(package-archive-priorities (quote (("melpa-stable" . 10) ("gnu" . 5) ("melpa" . 0))))
