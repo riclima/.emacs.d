@@ -5,6 +5,7 @@
  ;; If there is more than one, they won't work right.
  '(ansi-term-color-vector
    [unspecified "#f9f5d7" "#9d0006" "#79740e" "#b57614" "#076678" "#8f3f71" "#076678" "#504945"])
+ '(before-save-hook (quote (delete-trailing-whitespace)))
  '(column-number-mode t)
  '(custom-enabled-themes (quote (monokai)))
  '(custom-file "/Users/riclima/.emacs.d/custom.el")
