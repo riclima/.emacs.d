@@ -20,6 +20,8 @@
  '(global-highlight-changes-mode nil)
  '(inhibit-startup-screen t)
  '(ivy-mode t)
+ '(langtool-language-tool-jar
+   "/usr/local/Cellar/languagetool/3.9/libexec/languagetool.jar")
  '(line-spacing nil)
  '(magit-commit-arguments (quote ("--gpg-sign=5D7E1E4404878F25")))
  '(magit-log-arguments
@@ -55,7 +57,7 @@
      ("melpa" . "https://melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (counsel-projectile flx projectile string-inflection base16-theme ace-window yasnippet-snippets which-key ivy-hydra auctex nix-mode elpy yasnippet pandoc-mode markdown-mode magit swiper counsel monokai-theme ivy exec-path-from-shell)))
+    (langtool counsel-projectile flx projectile string-inflection base16-theme ace-window yasnippet-snippets which-key ivy-hydra auctex nix-mode elpy yasnippet pandoc-mode markdown-mode magit swiper counsel monokai-theme ivy exec-path-from-shell)))
  '(projectile-enable-caching t)
  '(projectile-global-mode t)
  '(python-shell-interpreter-args "-i")
