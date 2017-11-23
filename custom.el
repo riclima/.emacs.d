@@ -20,6 +20,7 @@
    (quote
     (elpy-module-company elpy-module-eldoc elpy-module-flymake elpy-module-pyvenv elpy-module-yasnippet elpy-module-django elpy-module-sane-defaults)))
  '(global-highlight-changes-mode nil)
+ '(gud-pdb-command-name "python -m pdb")
  '(inhibit-startup-screen t)
  '(ivy-mode t)
  '(langtool-language-tool-jar
