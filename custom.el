@@ -3,6 +3,13 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(LaTeX-mode-hook
+   (quote
+    (preview-mode-setup turn-on-reftex LaTeX-math-mode flyspell-mode visual-line-mode)))
+ '(TeX-auto-save t)
+ '(TeX-engine (quote luatex))
+ '(TeX-parse-self t)
+ '(TeX-source-correlate-mode t)
  '(ansi-term-color-vector
    [unspecified "#f9f5d7" "#9d0006" "#79740e" "#b57614" "#076678" "#8f3f71" "#076678" "#504945"])
  '(before-save-hook (quote (delete-trailing-whitespace)))
@@ -65,6 +72,7 @@
  '(projectile-enable-caching t)
  '(projectile-global-mode t)
  '(python-shell-interpreter-args "-i")
+ '(reftex-plug-into-AUCTeX t)
  '(show-paren-mode t)
  '(tls-checktrust t)
  '(tool-bar-mode nil))
