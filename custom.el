@@ -11,7 +11,7 @@
  '(TeX-parse-self t)
  '(TeX-source-correlate-mode t)
  '(ansi-term-color-vector
-   [unspecified "#f9f5d7" "#9d0006" "#79740e" "#b57614" "#076678" "#8f3f71" "#076678" "#504945"])
+   [unspecified "#f9f5d7" "#9d0006" "#79740e" "#b57614" "#076678" "#8f3f71" "#076678" "#504945"] t)
  '(before-save-hook (quote (delete-trailing-whitespace)))
  '(column-number-mode t)
  '(custom-enabled-themes (quote (monokai)))
