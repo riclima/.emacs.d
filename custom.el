@@ -35,6 +35,7 @@
  '(langtool-language-tool-jar
    "/usr/local/Cellar/languagetool/3.9/libexec/languagetool.jar")
  '(line-spacing nil)
+ '(mac-mouse-wheel-mode t)
  '(mac-system-move-file-to-trash-use-finder t)
  '(magit-commit-arguments (quote ("--gpg-sign=5D7E1E4404878F25")))
  '(magit-log-arguments
