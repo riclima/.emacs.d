@@ -19,6 +19,7 @@
  '(custom-safe-themes
    (quote
     ("36746ad57649893434c443567cb3831828df33232a7790d232df6f5908263692" "12670281275ea7c1b42d0a548a584e23b9c4e1d2dabb747fd5e2d692bcd0d39b" "8cf1002c7f805360115700144c0031b9cfa4d03edc6a0f38718cef7b7cabe382" "100eeb65d336e3d8f419c0f09170f9fd30f688849c5e60a801a1e6addd8216cb" "6daa09c8c2c68de3ff1b83694115231faa7e650fdbb668bc76275f0f2ce2a437" "84fa3d838aec400453d086913cd373ce84c8b85623451331ec4cf5f68ed878c7" "4a91a64af7ff1182ed04f7453bb5a4b0c3d82148d27db699df89a5f1d449e2a4" "93f9654f91d31e9a9ec6ea2fcffcfcab38353a9588673f2b750e591f704cd633" default)))
+ '(default-frame-alist (quote ((width . 120) (height . 48))))
  '(default-input-method "french-prefix")
  '(delete-by-moving-to-trash t)
  '(dired-du-size-format t)
