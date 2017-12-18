@@ -44,21 +44,20 @@
    (quote
     (("~/.password-store" . 0)
      ("~/.emacs.d" . 0)
-     ("~/Org" . 0)
-     ("~/SourceCode" . 1))))
+     ("~/Documents" . 1))))
  '(ns-command-modifier (quote control))
  '(org-agenda-files (quote ("~/Org/")))
  '(org-capture-templates
    (quote
     (("t" "Task" entry
-      (file+headline "~/Org/inbox.org" "Captures")
+      (file+headline "~/Documents/org/inbox.org" "Captures")
       "* TODO %?")
      ("T" "Task with metadata" entry
-      (file+headline "~/Org/inbox.org" "Captures")
+      (file+headline "~/Documents/org/inbox.org" "Captures")
       "* TODO %?
   %i
   %a"))))
- '(org-default-notes-file "~/Org/inbox.org")
+ '(org-default-notes-file "~/Documents/org/inbox.org")
  '(org-hide-emphasis-markers t)
  '(org-lowest-priority 70)
  '(org-refile-targets (quote ((org-agenda-files :maxlevel . 3))))
