@@ -95,3 +95,7 @@
 
 ;; Server
 (server-start)
+
+
+;; Improve performance of long lines
+(setq-default bidi-display-reordering nil)
