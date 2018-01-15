@@ -18,7 +18,7 @@
  '(custom-enabled-themes (quote (monokai)))
  '(custom-safe-themes
    (quote
-    ("93f9654f91d31e9a9ec6ea2fcffcfcab38353a9588673f2b750e591f704cd633" default)))
+    ("61003d455ba1bad9a3bf8be7342e848ca3febe899319e95a9dc3d804d9697608" "93f9654f91d31e9a9ec6ea2fcffcfcab38353a9588673f2b750e591f704cd633" default)))
  '(default-input-method "french-prefix")
  '(delete-by-moving-to-trash t)
  '(delete-selection-mode t)
