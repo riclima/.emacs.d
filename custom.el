@@ -70,7 +70,7 @@
      ("melpa" . "https://melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (dired-du langtool counsel-projectile flx projectile string-inflection base16-theme ace-window yasnippet-snippets which-key ivy-hydra auctex nix-mode elpy yasnippet pandoc-mode markdown-mode magit swiper counsel monokai-theme ivy exec-path-from-shell)))
+    (company langtool flx projectile string-inflection ace-window yasnippet-snippets which-key ivy-hydra auctex nix-mode elpy yasnippet pandoc-mode markdown-mode magit swiper counsel monokai-theme ivy exec-path-from-shell)))
  '(projectile-enable-caching t)
  '(projectile-global-mode t)
  '(python-shell-interpreter-args "-i")
