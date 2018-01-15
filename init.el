@@ -40,8 +40,8 @@
 
 
 ;; Ivy
-(setq ivy-re-builders-alist
-      '((t . ivy--regex-fuzzy)))
+;; (setq ivy-re-builders-alist
+;;       '((t . ivy--regex-fuzzy)))
 (setq ivy-use-virtual-buffers t)
 (setq ivy-count-format "(%d/%d) ")
 (global-set-key (kbd "C-s") 'swiper)
