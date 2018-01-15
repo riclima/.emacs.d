@@ -47,7 +47,6 @@
     (("~/.password-store" . 0)
      ("~/.emacs.d" . 0)
      ("~/Documents" . 1))))
- '(ns-command-modifier (quote control))
  '(org-agenda-files (quote ("~/Org/")))
  '(org-capture-templates
    (quote
