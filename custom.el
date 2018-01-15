@@ -47,7 +47,7 @@
     (("~/.password-store" . 0)
      ("~/.emacs.d" . 0)
      ("~/Documents" . 1))))
- '(org-agenda-files (quote ("~/Org/")))
+ '(org-agenda-files (quote ("~/Documents/org")))
  '(org-capture-templates
    (quote
     (("t" "Task" entry
