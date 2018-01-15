@@ -22,6 +22,7 @@
  '(delete-by-moving-to-trash t)
  '(delete-selection-mode t)
  '(dired-du-size-format t)
+ '(dired-listing-switches "-alh")
  '(elpy-mode-hook (quote (subword-mode)))
  '(elpy-modules
    (quote
