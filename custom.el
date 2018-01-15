@@ -78,7 +78,8 @@
  '(ring-bell-function (quote ignore))
  '(show-paren-mode t)
  '(tls-checktrust t)
- '(tool-bar-mode nil))
+ '(tool-bar-mode nil)
+ '(tramp-syntax (quote default) nil (tramp)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
