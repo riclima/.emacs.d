@@ -20,6 +20,7 @@
     ("93f9654f91d31e9a9ec6ea2fcffcfcab38353a9588673f2b750e591f704cd633" default)))
  '(default-input-method "french-prefix")
  '(delete-by-moving-to-trash t)
+ '(delete-selection-mode t)
  '(dired-du-size-format t)
  '(elpy-mode-hook (quote (subword-mode)))
  '(elpy-modules
