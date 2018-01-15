@@ -75,6 +75,7 @@
  '(projectile-global-mode t)
  '(python-shell-interpreter-args "-i")
  '(reftex-plug-into-AUCTeX t)
+ '(ring-bell-function (quote ignore))
  '(show-paren-mode t)
  '(tls-checktrust t)
  '(tool-bar-mode nil))
