@@ -58,7 +58,6 @@
 (global-set-key (kbd "C-x l") 'counsel-locate)
 ;; (global-set-key (kbd "C-S-o") 'counsel-rhythmbox)
 (global-set-key (kbd "C-c C-r") 'ivy-resume)
-(counsel-projectile-on)
 
 
 ;; Org
