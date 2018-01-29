@@ -61,6 +61,7 @@
   %i
   %a"))))
  '(org-default-notes-file "~/Documents/org/inbox.org")
+ '(org-edit-src-content-indentation 0)
  '(org-hide-emphasis-markers t)
  '(org-lowest-priority 70)
  '(org-refile-targets (quote ((org-agenda-files :maxlevel . 3))))
