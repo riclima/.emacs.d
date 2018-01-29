@@ -99,6 +99,3 @@
 ;; Improve performance of long lines
 (setq-default bidi-display-reordering nil)
 (put 'scroll-left 'disabled nil)
-
-;; Hooks
-(add-hook 'after-init-hook 'global-company-mode)

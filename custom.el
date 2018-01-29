@@ -29,6 +29,8 @@
    (quote
     (elpy-module-company elpy-module-eldoc elpy-module-flymake elpy-module-pyvenv elpy-module-yasnippet elpy-module-django elpy-module-sane-defaults)))
  '(explicit-bash-args (quote ("--noediting" "-i" "-l")))
+ '(global-company-mode t)
+ '(global-flycheck-mode t)
  '(global-highlight-changes-mode nil)
  '(gud-pdb-command-name "python -m pdb")
  '(inhibit-startup-screen t)
