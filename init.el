@@ -99,3 +99,4 @@
 ;; Improve performance of long lines
 (setq-default bidi-display-reordering nil)
 (put 'scroll-left 'disabled nil)
+(put 'upcase-region 'disabled nil)
