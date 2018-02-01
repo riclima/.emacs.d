@@ -67,11 +67,6 @@
 (global-set-key "\C-cb" 'org-iswitchb)
 
 
-;; Ace Window
-(global-set-key (kbd "M-p") 'ace-window)
-(setq aw-keys '(?a ?s ?d ?f ?g ?h ?j ?k ?l))
-
-
 ;; Magit
 (global-magit-file-mode)
 (global-set-key (kbd "C-x g") 'magit-status)

@@ -73,7 +73,7 @@
      ("melpa" . "https://melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (yaml-mode kivy-mode php-mode flycheck company companyn langtool flx projectile string-inflection ace-window yasnippet-snippets which-key ivy-hydra auctex nix-mode elpy yasnippet pandoc-mode markdown-mode magit swiper counsel monokai-theme ivy exec-path-from-shell)))
+    (lorem-ipsum yaml-mode kivy-mode php-mode flycheck company companyn langtool flx projectile string-inflection yasnippet-snippets which-key ivy-hydra auctex nix-mode elpy yasnippet pandoc-mode markdown-mode magit swiper counsel monokai-theme ivy exec-path-from-shell)))
  '(projectile-global-mode t)
  '(python-shell-interpreter-args "-i")
  '(reftex-plug-into-AUCTeX t)
