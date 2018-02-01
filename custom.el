@@ -73,12 +73,18 @@
      ("melpa" . "https://melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (lorem-ipsum yaml-mode kivy-mode php-mode flycheck company companyn flx projectile string-inflection ace-window yasnippet-snippets which-key ivy-hydra auctex nix-mode elpy yasnippet pandoc-mode markdown-mode magit swiper counsel monokai-theme ivy exec-path-from-shell)))
+    (langtool yaml-mode kivy-mode php-mode flycheck company companyn flx projectile string-inflection ace-window yasnippet-snippets which-key ivy-hydra auctex nix-mode elpy yasnippet pandoc-mode markdown-mode magit swiper counsel monokai-theme ivy exec-path-from-shell)))
+ '(prog-mode-hook
+   (quote
+    (flyspell-prog-mode flymake-mode prettify-symbols-mode)))
  '(projectile-global-mode t)
  '(python-shell-interpreter-args "-i")
  '(reftex-plug-into-AUCTeX t)
  '(ring-bell-function (quote ignore))
  '(show-paren-mode t)
+ '(text-mode-hook
+   (quote
+    (turn-on-flyspell turn-on-auto-fill text-mode-hook-identify)))
  '(tls-checktrust t)
  '(tool-bar-mode nil)
  '(tramp-syntax (quote default) nil (tramp)))
