@@ -63,7 +63,6 @@
 ;; Elpy
 (elpy-enable)
 (setenv "WORKON_HOME" "~/.local/share/virtualenvs")
-(elpy-use-ipython)
 
 
 ;; Yasnippets
