@@ -32,6 +32,7 @@
  '(global-company-mode t)
  '(global-flycheck-mode t)
  '(global-highlight-changes-mode nil)
+ '(gnutls-verify-error t)
  '(gud-pdb-command-name "python -m pdb")
  '(inhibit-startup-screen t)
  '(ivy-mode t)

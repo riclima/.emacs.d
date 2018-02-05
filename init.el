@@ -6,19 +6,6 @@
   (exec-path-from-shell-initialize))
 
 
-;; Security
-(let ((trustfile
-       (replace-regexp-in-string
-        "\\\\" "/"
-        (replace-regexp-in-string
-         "\n" ""
-         (shell-command-to-string "python3 -m certifi")))))
-  (setq tls-program
-        (list
-         (format "gnutls-cli%s --x509cafile %s -p %%p %%h"
-                 (if (eq window-system 'w32) ".exe" "") trustfile)))
-  (setq gnutls-verify-error t)
-  (setq gnutls-trustfiles (list trustfile)))
 
 
 ;; Package Sync
