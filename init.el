@@ -6,17 +6,17 @@
   (exec-path-from-shell-initialize))
 
 
+;; Custom
+(customize-set-variable 'custom-file "~/.emacs.d/custom.el")
+(load custom-file)
 
 
 ;; Package Sync
+;; Note: custom-set-variables needs to have run for this to work
+;; (otherwise package-selected-packages won't be set).
 (when (not package-archive-contents)
   (package-refresh-contents))
 (package-install-selected-packages)
-
-
-;; Custom
-(setq custom-file "~/.emacs.d/custom.el")
-(load custom-file)
 
 
 ;; General
