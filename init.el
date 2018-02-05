@@ -89,4 +89,3 @@
 
 ;; Spelling and grammar checking
 (customize-set-variable 'langtool-language-tool-jar "/usr/local/Cellar/languagetool/4.0/libexec/languagetool-commandline.jar")
-(customize-set-variable 'langtool-mother-tongue "en")

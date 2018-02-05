@@ -37,7 +37,7 @@
  '(inhibit-startup-screen t)
  '(ivy-mode t)
  '(langtool-language-tool-jar
-   "/usr/local/Cellar/languagetool/4.0/libexec/languagetool-commandline.jar")
+   "/usr/local/Cellar/languagetool/4.0/libexec/languagetool-commandline.jar" t)
  '(line-spacing nil)
  '(mac-mouse-wheel-mode t)
  '(mac-system-move-file-to-trash-use-finder t)
