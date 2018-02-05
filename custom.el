@@ -75,9 +75,7 @@
  '(package-selected-packages
    (quote
     (langtool yaml-mode kivy-mode php-mode flycheck company companyn flx projectile string-inflection ace-window yasnippet-snippets which-key ivy-hydra auctex nix-mode elpy yasnippet pandoc-mode markdown-mode magit swiper counsel monokai-theme ivy exec-path-from-shell)))
- '(prog-mode-hook
-   (quote
-    (flyspell-prog-mode flymake-mode prettify-symbols-mode)))
+ '(prog-mode-hook (quote (flyspell-prog-mode prettify-symbols-mode)))
  '(projectile-global-mode t)
  '(python-shell-interpreter-args "-i")
  '(reftex-plug-into-AUCTeX t)
