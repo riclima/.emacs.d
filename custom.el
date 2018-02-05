@@ -82,9 +82,7 @@
  '(reftex-plug-into-AUCTeX t)
  '(ring-bell-function (quote ignore))
  '(show-paren-mode t)
- '(text-mode-hook
-   (quote
-    (turn-on-flyspell turn-on-auto-fill text-mode-hook-identify)))
+ '(text-mode-hook (quote (turn-on-flyspell)))
  '(tls-checktrust t)
  '(tool-bar-mode nil)
  '(tramp-syntax (quote default) nil (tramp)))
