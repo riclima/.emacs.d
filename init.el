@@ -7,8 +7,7 @@
 
 
 ;; Custom
-(customize-set-variable 'custom-file "~/.emacs.d/custom.el")
-(load custom-file)
+(load "~/.emacs.d/custom.el")
 
 
 ;; Package Sync
