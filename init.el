@@ -22,7 +22,6 @@
 (show-paren-mode)
 (column-number-mode)
 (add-to-list 'auto-mode-alist '("\\.log\\'" . auto-revert-mode))
-(put 'downcase-region 'disabled nil)
 
 
 ;; Ivy
@@ -83,6 +82,7 @@
 ;; Enable disabled commands
 (put 'scroll-left 'disabled nil)
 (put 'upcase-region 'disabled nil)
+(put 'downcase-region 'disabled nil)
 
 
 ;; Spelling and grammar checking
