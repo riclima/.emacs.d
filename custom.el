@@ -33,6 +33,9 @@
  '(global-company-mode t)
  '(global-flycheck-mode t)
  '(global-highlight-changes-mode nil)
+ '(gnutls-trustfiles
+   (quote
+    ("/etc/ssl/certs/ca-certificates.crt" "/etc/pki/tls/certs/ca-bundle.crt" "/etc/ssl/ca-bundle.pem" "/usr/ssl/certs/ca-bundle.crt" "/usr/local/share/certs/ca-root-nss.crt" "/etc/ssl/cert.pem")))
  '(gnutls-verify-error t)
  '(gud-pdb-command-name "python -m pdb")
  '(inhibit-startup-screen t)
