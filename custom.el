@@ -40,8 +40,6 @@
  '(gud-pdb-command-name "python -m pdb")
  '(inhibit-startup-screen t)
  '(ivy-mode t)
- '(langtool-language-tool-jar
-   "/usr/local/Cellar/languagetool/4.0/libexec/languagetool-commandline.jar" t)
  '(line-spacing nil)
  '(mac-mouse-wheel-mode t)
  '(mac-system-move-file-to-trash-use-finder t)
@@ -78,7 +76,7 @@
      ("melpa" . "https://melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (langtool yaml-mode kivy-mode php-mode flycheck company flx projectile string-inflection yasnippet-snippets which-key ivy-hydra auctex nix-mode elpy yasnippet pandoc-mode markdown-mode magit swiper counsel monokai-theme ivy exec-path-from-shell)))
+    (csv-mode yaml-mode kivy-mode php-mode flycheck company flx projectile string-inflection yasnippet-snippets which-key ivy-hydra auctex nix-mode elpy yasnippet pandoc-mode markdown-mode magit swiper counsel monokai-theme ivy exec-path-from-shell)))
  '(prog-mode-hook (quote (flyspell-prog-mode prettify-symbols-mode)))
  '(projectile-global-mode t)
  '(python-shell-interpreter "jupyter")

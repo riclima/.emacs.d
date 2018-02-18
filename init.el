@@ -83,7 +83,3 @@
 (put 'scroll-left 'disabled nil)
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
-
-
-;; Spelling and grammar checking
-(customize-set-variable 'langtool-language-tool-jar "/usr/local/Cellar/languagetool/4.0/libexec/languagetool-commandline.jar")
