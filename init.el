@@ -2,7 +2,7 @@
 
 
 ;; Environment
-(when (memq window-system '(mac ns x))
+(when (memq window-system '(mac ns))
   (exec-path-from-shell-initialize))
 
 
